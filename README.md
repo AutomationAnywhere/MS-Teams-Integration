@@ -8,7 +8,7 @@ Use the AARI web interface from within MS Teams. Customize the manifest.json fil
  2. Create a zip file containing the contents of the **Automation Anywhere** folder.
  3. In MS Teams, go to **Apps** and click on **Manage your apps** in the lower left corner.
  4. Click on **Upload an app**.
- 5. As a Teams admin, select **Upload an app to your org's app catalog**.
+ 5. As a Teams admin, select **Upload an app to your org's app catalog** and select the zip file created in step 2.
  6. Alternatively, select **Submit an app to your org** to submit the app for review by your IT admin.
  7. Click **Add** on the next screen.
  8. When the App loads, you will be prompted to sign in to the Automation Anywhere control room. Click **Log in** to continue. The login window will close and the AARI interface will appear.
