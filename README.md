@@ -19,3 +19,15 @@ Use the AARI web interface from within MS Teams. Customize the manifest.json fil
  2. When prompted, log in to the Automation 360 control room and the AARI interface will appear.
 
 Note: the Automation Anywhere app is currently not supported on mobile.
+
+## Screenshot guide
+
+![Screenshot 2023-01-04 145957](https://user-images.githubusercontent.com/120499291/210668544-0912687c-46d2-4097-b290-fc7f17d8bfa7.png)
+![image](https://user-images.githubusercontent.com/120499291/210668761-614976f3-f119-4e24-9a19-490818a5951b.png)
+![Screenshot 2023-01-04 152619](https://user-images.githubusercontent.com/120499291/210669117-93994e0a-3676-4491-800a-69afbf50bef1.png)
+![Screenshot 2023-01-04 152832](https://user-images.githubusercontent.com/120499291/210669324-12e09ccf-9584-4052-8201-43b2832a1cf1.png)
+![Screenshot 2023-01-04 153103](https://user-images.githubusercontent.com/120499291/210669612-420a90f8-f837-47ea-b3a5-ec5e1916e29c.png)
+![Screenshot 2023-01-04 153240](https://user-images.githubusercontent.com/120499291/210669769-2c521d05-ce95-4a1e-be2f-172f0aedf6af.png)
+![Screenshot 2023-01-04 153416](https://user-images.githubusercontent.com/120499291/210669906-bf15889e-38b9-458f-b167-d388e12db44f.png)
+![image](https://user-images.githubusercontent.com/120499291/210670177-61e85a91-5549-48e7-9654-692552b90866.png)
+
