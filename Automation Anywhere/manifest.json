@@ -1,1 +1,42 @@
-{"$schema":"https://developer.microsoft.com/en-us/json-schemas/teams/v1.17/MicrosoftTeams.schema.json","version":"1.0.0","manifestVersion":"1.17","id":"303eadca-dee6-4572-911c-53b54b412286","name":{"short":"Automation Co-Pilot - Template","full":""},"developer":{"name":"Automation Anywhere","mpnId":"","websiteUrl":"https://www.automationanywhere.com","privacyUrl":"https://www.automationanywhere.com/legal/privacy","termsOfUseUrl":"https://www.automationanywhere.com/legal/product-specific-terms"},"description":{"short":"Automation Co-Pilot","full":"Use the Automation Anywhere Co-Pilot web interface from within MS Teams"},"icons":{"outline":"outline.png","color":"color.png"},"accentColor":"#FFFFFF","validDomains":["domain.my.automationanywhere.digital"],"webApplicationInfo":{"id":"71897951-29fc-4dbd-8b00-095cdcc806d4","resource":""},"authorization":{"permissions":{"resourceSpecific":[]}}}
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.17/MicrosoftTeams.schema.json",
+  "version": "1.3.1",
+  "manifestVersion": "1.17",
+  "id": "cb5fb082-f3d3-402d-b0fb-1eda8610cb63",
+  "name": {
+    "short": "PM - Automation Co-Pilot",
+    "full": "Automation Anywhere Co-Pilot for Microsoft Teams"
+  },
+  "developer": {
+    "name": "Automation Anywhere",
+    "websiteUrl": "https://www.automationanywhere.com/",
+    "privacyUrl": "https://www.automationanywhere.com/legal/privacy",
+    "termsOfUseUrl": "https://www.automationanywhere.com/legal/terms"
+  },
+  "description": {
+    "short": "Automation Co-Pilot for Microsoft Teams",
+    "full": "Automation Co-Pilot for Teams helps you interact and monitor your automations from A360 Cloud or On-Premise deployments. Execute automated processes across your business apps from within Teams such as IT Ticket Creation, Vacation Requests, and more."
+  },
+  "icons": {
+    "outline": "outline.png",
+    "color": "color.png"
+  },
+  "accentColor": "#000000",
+  "staticTabs": [
+    {
+      "entityId": "ef09a9cd-5736-4c27-ab13-5720826057b8",
+      "name": "Automation Copilot",
+      "contentUrl": "https://CONTROLROOM.automationanywhere.digital/copilot?App=Teams",
+      "scopes": ["personal"],
+      "context": ["personalTab", "channelTab"]
+    },
+    { "entityId": "about", "scopes": ["personal"] }
+  ],
+  "validDomains": ["CONTROLROOM.automationanywhere.digital"],
+  "devicePermissions": ["notifications", "openExternal"],
+  "webApplicationInfo": {
+    "id": "71897951-29fc-4dbd-8b00-095cdcc806d4",
+    "resource": ""
+  },
+  "authorization": { "permissions": { "resourceSpecific": [] } }
+}
